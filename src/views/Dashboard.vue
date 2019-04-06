@@ -1,11 +1,18 @@
 <template>
   <AdminComponent>
-    <h1>Home</h1>
+    <div>Dashboard</div>
+    <v-layout>
+      <v-flex>
+        <v-card>
+          <h2>Dashboard</h2>
+        </v-card>
+      </v-flex>
+    </v-layout>
   </AdminComponent>
 </template>
-
 <script>
 import AdminComponent from '@/components/AdminComponent'
+
 export default {
   components: {
     AdminComponent
