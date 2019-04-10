@@ -1,13 +1,13 @@
 <template>
-  <AdminComponent>
+  <v-container>
     <v-layout justify-end="true">
       <div class="page-title text-xs-center pb-3">
         <img :src="require('@/assets/img/user-management-a.svg')" alt="">
         <h3>User Management</h3>
       </div>
     </v-layout>
-    <v-layout>
-      <v-flex>
+    <v-layout row wrap>
+      <v-flex xs12>
         <v-card>
           <v-toolbar card prominent>
             <v-toolbar-title class="body-2 grey--text"></v-toolbar-title>
@@ -22,30 +22,39 @@
           <UserTable />
         </v-card>
       </v-flex>
+      <v-flex xs12>
+        <div class="pt-4" v-show="isEdit">
+          <EditUser />
+        </div>
+      </v-flex>
     </v-layout>
     <AddUserModal ref="addUserRef" />
-  </AdminComponent>
+  </v-container>
 </template>
 <script>
-import AdminComponent from '@/components/AdminComponent'
 import UserTable from '@/components/UserTable'
 import AddUserModal from '@/components/AddUserModal'
+import EditUser from '@/components/EditUser'
 
 export default {
   components: {
-    AdminComponent,
     AddUserModal,
-    UserTable
+    UserTable,
+    EditUser
   },
   data () {
     return {
-
+      isEdit: false
     }
   },
   methods: {
     openAddUserModal () {
       // console.log({ refs: this.$refs.addUserRef })
-      this.$refs.addUserRef.dialog = true
+      // this.$refs.addUserRef.dialog = true
+      this.$store.commit('users/OPEN_ADD_USER_DIALOG', true)
+    },
+    openEdit () {
+      this.isEdit = true
     }
   }
 }

@@ -1,14 +1,10 @@
 <template>
-  <AdminComponent>
-    <h1>Home</h1>
-  </AdminComponent>
+  <h1>Home</h1>
 </template>
 
 <script>
-import AdminComponent from '@/components/AdminComponent'
 export default {
   components: {
-    AdminComponent
   }
 }
 </script>

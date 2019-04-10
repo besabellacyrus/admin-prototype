@@ -1,5 +1,5 @@
 <template>
-  <AdminComponent>
+  <v-container>
     <div>Dashboard</div>
     <v-layout>
       <v-flex>
@@ -8,14 +8,12 @@
         </v-card>
       </v-flex>
     </v-layout>
-  </AdminComponent>
+  </v-container>
 </template>
 <script>
-import AdminComponent from '@/components/AdminComponent'
 
 export default {
   components: {
-    AdminComponent
   }
 }
 </script>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="622px" height="374px" viewBox="0 0 622 374" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>Oval</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="55.6983902%" y1="55.0307765%" x2="14.5738636%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#B0FF90" stop-opacity="0" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" fill-opacity="0.05">
+        <g id="BG" transform="translate(0.000000, -650.000000)" fill="url(#linearGradient-1)">
+            <g id="1">
+                <circle id="Oval" transform="translate(105.500000, 1193.500000) rotate(-180.000000) translate(-105.500000, -1193.500000) " cx="105.5" cy="1193.5" r="543.5"></circle>
+            </g>
+        </g>
+    </g>
+</svg>

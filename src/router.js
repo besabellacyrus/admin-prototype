@@ -19,6 +19,11 @@ export default new Router({
       path: '/user-management',
       name: 'user-management',
       component: () => import('@/views/Users')
+    },
+    {
+      path: '/call-management',
+      name: 'call-management',
+      component: () => import('@/views/CallManagement')
     }
     // {
     //   path: '/about',

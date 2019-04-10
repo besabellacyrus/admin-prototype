@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="68px" height="40px" viewBox="0 0 68 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>Download</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="68" height="40" rx="5"></rect>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="-2" in="SourceAlpha" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.15 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="User-Management" transform="translate(-1045.000000, -205.000000)">
+            <g id="Buttons-V1-Copy" transform="translate(1045.000000, 205.000000)">
+                <g id="Download">
+                    <g transform="translate(34.000000, 20.000000) scale(-1, 1) translate(-34.000000, -20.000000) ">
+                        <use fill="#2D97D6" fill-rule="evenodd" xlink:href="#path-1"></use>
+                        <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                    </g>
+                    <g id="search" transform="translate(22.000000, 8.000000)" fill="#FFFFFF">
+                        <path d="M16.956776,8.80390602 L15.8798539,8.80390602 L15.5055082,9.17553909 C16.8279251,10.7176807 17.6322259,12.7169038 17.6322259,14.9073688 C17.6322259,19.7765758 13.6853199,23.7234818 8.81611295,23.7234818 C3.94690595,23.7234818 0,19.7765758 0,14.9073688 C0,10.0381618 3.94690595,6.09125589 8.81611295,6.09125589 C11.0065779,6.09125589 13.0044448,6.89420033 14.5465864,8.21526094 L14.9209321,7.84362787 L14.9209321,6.76941842 L21.6998448,-2.27373675e-13 L23.7221255,2.02228068 L16.956776,8.80390602 L16.956776,8.80390602 Z M8.81611295,8.80390602 C5.44428883,8.80390602 2.71265014,11.5355447 2.71265014,14.9073688 C2.71265014,18.2778366 5.44428883,21.0108316 8.81611295,21.0108316 C12.1865807,21.0108316 14.9195758,18.2778366 14.9195758,14.9073688 C14.9195758,11.5355447 12.1865807,8.80390602 8.81611295,8.80390602 L8.81611295,8.80390602 Z" id="Shape" transform="translate(11.861063, 11.861741) scale(1, -1) translate(-11.861063, -11.861741) "></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

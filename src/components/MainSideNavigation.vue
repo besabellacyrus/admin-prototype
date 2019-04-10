@@ -6,6 +6,7 @@
     :mini-variant="drawer.mini"
     v-model="drawer.open"
     hide-overlay
+    stateless
     app
   >
     <v-toolbar flat class="transparent">
@@ -83,6 +84,13 @@ export default {
           inactive: require('@/assets/img/user-management-i.svg'),
           active: require('@/assets/img/user-management-a.svg'),
           path: '/user-management'
+        },
+        {
+          title: 'Call Management',
+          icon: '',
+          inactive: require('@/assets/img/call-management-i.svg'),
+          active: require('@/assets/img/call-management-a.svg'),
+          path: '/call-management'
         }
       ],
       mini: true,
